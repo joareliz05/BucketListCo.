@@ -1,0 +1,83 @@
+.header {
+    text-align: center;
+    line-height: 1.5;
+}
+
+#slogan {
+    font-family: cursive;
+}
+
+
+
+.about {
+    text-align: center;
+    height: 500px;
+    line-height: 1.5;
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: right center;
+}
+.text-block {
+    position: absolute;
+    height: 500px;
+    left: 100px;
+    background-color: rgba(255, 255, 179, 0.83);
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+.about button:hover {
+    background-color: rgb(255, 255, 179);
+    color: black;
+}
+
+/* SERVICES STYLES */
+
+.services {
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 200px;
+    line-height: 1.5;
+}
+.services p, h3 {
+    font-family: cursive;
+}
+.services h2 {
+    font-family: serif;
+}
+
+.services img {
+    border-radius: 50%;
+    width: 200px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+    padding-top: 20px;
+    height: 200px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  button {
+    border-radius: 12px;
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}

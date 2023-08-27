@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+    text-align: center;
+    background-color: white;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    background-color:rgb(255, 255, 179);
+  }
+
+  .header {
+    text-align: center;
+    line-height: 1.5;
+  }
+
+  h2 {
+    font-family: serif;
+  }
+
+  p {
+    font-family: cursive;
+
+  }
+
+  #services {
+    border: solid black;
+  }
+
+  button {
+    border-radius: 12px;
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+}
+

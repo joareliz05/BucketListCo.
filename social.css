@@ -1,0 +1,67 @@
+h1, p {
+    text-align: center;
+    line-height: 1.5;
+    padding-bottom: 20px;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Create two equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+  #welcome {
+    text-align: center;
+    line-height: 2.0;
+    background-color: rgb(247, 247, 216);
+    height: 300px;
+    padding-top: 150px;
+  }
+
+  .journey, .mission, .vision, .wedo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  }
+
+  .aboutimg {
+    border-radius: 50%;
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    margin-bottom: -110px;
+  }
+
+  .joinus {
+    background-color: rgb(247, 247, 216);
+    height: 350px;
+    padding-top: 50px;
+  }
+
+  #first-row h2 {
+    text-align: right;
+  }
+
+  #first-row p {
+    text-align: right;
+  }
+  #first-row img {
+    float: left;
+  }

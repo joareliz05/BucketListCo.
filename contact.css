@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  padding: 10px;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid rgb(255, 255, 179);
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=email], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid rgb(255, 255, 179);
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  border-radius: 12px;
+  border: none;
+  background-color: black;
+  color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+input[type=submit]:hover {
+  background-color: rgb(255, 255, 179);
+  color: black;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: rgb(255, 255, 179);
+  padding: 20px;
+}
