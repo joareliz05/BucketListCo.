@@ -68,3 +68,8 @@ button:hover {
     background-color: rgb(247, 247, 216);
     color: black;
 }
+
+/* Image responsiveness */
+img {
+  height: auto;
+}
